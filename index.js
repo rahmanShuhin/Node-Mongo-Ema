@@ -99,4 +99,5 @@ app.post('/placeOrder', (req, res) => {
 
 })
 //server listen to port 5001
-app.listen(5001, () => console.log('listen to port 5001'));
+const port = 5001 || 4200;
+app.listen(port, () => console.log('listen to port 5001'));
